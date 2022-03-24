@@ -1,16 +1,118 @@
-html,
-body {
-  padding: 0;
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
 }
 
-a {
-  color: inherit;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+a, a:hover {
+  color: #000;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+
+header {
+  display: block;
+  background-color: #000;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li a {
+  display: block;
+  color: #fff;
+  padding: 14px 20px;
+}
+
+header ul li a:hover {
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 14px 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 14px 0;
+}
+
+.docs-layout {
+  display: flex;
+}
+
+.docs-layout .left {
+  width: 20%;
+  background-color: #ccc;
+}
+
+.docs-layout .right {
+  width: 80%;
+  padding: 30px;
+}
+
+
+.blog-layout {
+  display: flex;
+}
+
+.blog-layout .left {
+  width: 80%;
+  padding: 30px;
+}
+
+.blog-layout .right {
+  width: 20%;
+  background: #ccc;
+}
+
+.doc-menu li {
+  display: block;
+  width: 100%;
+}
+
+.doc-menu li a {
+  width: 100%;
+  display: block;
+  padding: 12px 20px;
+  transition: 0.5s all;
+}
+
+.doc-menu li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+
+
+
+.blog-menu li {
+  display: block;
+  width: 100%;
+}
+
+.blog-menu li a {
+  width: 100%;
+  display: block;
+  padding: 12px 20px;
+  transition: 0.5s all;
+}
+
+.blog-menu li a:hover {
+  background-color: #000;
+  color: #fff;
 }
