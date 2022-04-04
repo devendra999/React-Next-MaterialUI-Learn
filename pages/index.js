@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <FirstName.Provider value={'Devendra'}>
-        <LastName.Provider value={'Vinod'}>
+        <LastName.Provider value={'Prajapati'}>
           <ComA/>
         </LastName.Provider>
       </FirstName.Provider>
