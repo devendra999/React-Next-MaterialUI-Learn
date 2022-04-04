@@ -3,7 +3,7 @@ import { FirstName, LastName } from './index';
 
 const ComC = () => {
     const fname = useContext(FirstName);
-    const lname = useContext(LastName);
+    const lname = useContext(LastName); 
 
 
 
