@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <button onClick={() => {setNum(num+1)}}>Click Me {num}</button><br/>
-      <button onClick={() => {setNums(nums+1)}}>Click Me {nums}</button>
+      <button onClick={() => {setNums(nums+1)}}>Click Me {nums}</button> 
     </>
   )
 }
