@@ -5,15 +5,18 @@ import styles from '../styles/Home.module.css'
 import ComA from './ComA'
 
 const FirstName = createContext();
+const LastName = createContext();
 
 export default function Home() {
   return (
     <>
-      <FirstName.Provider value={'Vinod Thapa'}>
-        <ComA/>
+      <FirstName.Provider value={'Devendra'}>
+        <LastName.Provider value={'Vinod'}>
+          <ComA/>
+        </LastName.Provider>
       </FirstName.Provider>
     </>
   )
 }
 
-export {FirstName};
+export {FirstName, LastName};
