@@ -44,5 +44,7 @@ react js
 
 
 
-
+    redux
+    ------
+    npm i redux react-redux redux-thunk
 
